@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/fen"
+        android:id="@+id/fgx0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="成绩分析"
+        android:gravity="center"
+        android:textSize="20dp"></TextView>
+
+
+    <Button
+        android:id="@+id/ht"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/text"
+        android:background="@drawable/g"></Button>
+
+
+   
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/a"
+        android:layout_above="@+id/fgx0"
+
+        android:gravity="center"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/gao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/a"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:text="高等数学"
+        android:textSize="20dp"></TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/fgx"
+        android:id="@+id/fgx"
+        android:layout_above="@+id/gao"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ji"
+        android:textSize="18dp"
+
+        android:gravity="center"
+        android:layout_above="@+id/fgx"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:text="计算机导论"
+        android:layout_above="@+id/ji"
+        android:gravity="center"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/fgx"
+        android:id="@+id/fgx1"
+        android:layout_above="@+id/b"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dy"
+
+        android:layout_above="@+id/fgx1"
+        android:gravity="center"
+        android:textSize="18dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:text="大学英语"
+        android:layout_above="@+id/dy"
+        android:gravity="center"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/fgx"
+        android:id="@+id/fgx2"
+        android:layout_above="@+id/c"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jg"
+
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_above="@+id/fgx2"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d"
+        android:text="近纲"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_above="@+id/jg"></TextView>
+
+    "   <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:src="@drawable/fen"
+    android:id="@+id/fgx3"
+    android:layout_above="@+id/d"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gz"
+        android:layout_alignParentBottom="true"></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gz"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"></ImageView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/sz"
+        android:gravity="center"
+        android:text="95.5"
+        android:textSize="25dp"
+        android:background="@drawable/r"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fgxt"
+        android:src="@drawable/fgxt"
+        android:layout_below="@+id/sz"
+        android:layout_centerHorizontal="true"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/l"
+        android:text="良好"
+        android:textSize="18dp"
+        android:layout_toLeftOf="@+id/fgxt"
+        android:layout_above="@+id/fgx3"></TextView>
+    <TextView
+        android:id="@+id/wdx"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="稳定性"
+        android:textSize="20dp"
+        android:layout_toLeftOf="@+id/fgxt"
+        android:layout_above="@+id/l"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/zm"
+        android:text="A+"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/fgxt"
+        android:layout_above="@+id/fgx3"></TextView>
+    <TextView
+        android:id="@+id/zhcp"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="综合测评"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/fgxt"
+        android:layout_above="@+id/zm"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看建议"
+        android:id="@+id/jy"
+        android:layout_above="@+id/fgx3"
+        android:layout_centerHorizontal="true"></Button>
+</RelativeLayout>

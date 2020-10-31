@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="输入你的成绩"
+        android:gravity="center"
+        android:textSize="20dp"></TextView>
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:digits="0123456789"
+        android:hint="输入科目成绩"></EditText>
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/second"
+        android:layout_above="@id/first"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:digits="0123456789"
+        android:hint="输入科目成绩"></EditText>
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/third"
+        android:layout_above="@id/second"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:digits="0123456789"
+        android:hint="输入科目成绩"></EditText>
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/forth"
+        android:layout_above="@id/third"
+        android:layout_alignParentRight="true"
+        android:singleLine="true"
+        android:digits="0123456789"
+        android:hint="输入科目成绩"></EditText>
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/km1"
+        android:layout_below="@+id/star"
+        android:singleLine="true"
+        android:hint="输入科目名称"></EditText>
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/km2"
+        android:layout_below="@+id/km1"
+        android:singleLine="true"
+        android:hint="输入科目名称"></EditText>
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/km3"
+        android:layout_below="@+id/km2"
+        android:singleLine="true"
+        android:hint="输入科目名称"></EditText>
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/km4"
+        android:layout_below="@+id/km3"
+        android:singleLine="true"
+        android:hint="输入科目名称"></EditText>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/fgx1"
+        android:src="@drawable/fgx"
+        android:layout_below="@+id/text"></ImageView>
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/forth"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/c"></ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/chahua"
+        android:layout_below="@+id/ceshi"></ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ceshi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/first"
+        android:text="   点击测试   "></Button>
+
+</RelativeLayout>
