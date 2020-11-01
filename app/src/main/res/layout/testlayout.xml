@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/shu"
+        android:src="@drawable/shu"></ImageView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/shua"
+        android:src="@drawable/shu"></ImageView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yw"
+        android:layout_centerHorizontal="true"
+        android:onClick="Clicktoturn"
+        android:text="   开始测试   "></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/text"
+        android:text="  "></TextView>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/yw"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/r"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="大学生成绩测试"></TextView>
+
+
+
+
+
+
+
+</RelativeLayout>

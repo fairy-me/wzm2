@@ -139,8 +139,7 @@ public class Thirdfairy extends AppCompatActivity {
         {
             zp.setText("过山车?");
         }
-        //@SuppressLint("DefaultLocale") String ave= String.format("%.1f",date5);
-        //textView5.setText(String.valueOf(ave));
+
         textView5.setText(String.valueOf(date5));
         button=(Button) findViewById(R.id.jy);
         button.setOnClickListener(new View.OnClickListener() {
@@ -168,6 +167,7 @@ public class Thirdfairy extends AppCompatActivity {
                Intent intent3=new Intent(Thirdfairy.this,Secondfairy.class);
                 startActivity(intent3);
                 finish();
+
             }
      });
 

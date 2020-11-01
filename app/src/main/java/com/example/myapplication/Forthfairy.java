@@ -19,7 +19,7 @@ public class Forthfairy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forthfairy);
-        Intent intent=getIntent();
+        final Intent intent=getIntent();
         String date1= intent.getStringExtra("math");
         Log.d("Forthfairy",date1);
         String date2= intent.getStringExtra("comp");
@@ -77,7 +77,9 @@ public class Forthfairy extends AppCompatActivity {
         btback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Forthfairy.this,"hhhhhhh",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Forthfairy.this,Thirdfairy.class);
+                startActivity(intent);
+                finish();
             }
         });
         btbaocun=(Button)findViewById(R.id.baocun);
